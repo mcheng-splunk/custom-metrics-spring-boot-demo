@@ -1,0 +1,1 @@
+java -javaagent:splunk-otel-javaagent-all.jar -Dsplunk.metrics.enabled=true -Dsplunk.metrics.export.interval=10s -Dsplunk.profiler.enabled=true -Dotel.resource.attributes=deployment.environment=mcheng-java-env -Dotel.service.name=custom—metric-mcheng -jar ./build/libs/custom-metrics-demo-0.0.1-SNAPSHOT.jar
