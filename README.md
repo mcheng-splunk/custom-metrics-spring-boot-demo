@@ -1,6 +1,12 @@
 
 # This example demostrate how to send custom metrics using micrometer to Splunk Observability Cloud.
 
+
+
+## Build the application
+* ./gradlew build  
+
+
 ## To run
 
 * Update the SPLUNK_TOKEN and SPLUNK_REALM field start-docker.sh file.
