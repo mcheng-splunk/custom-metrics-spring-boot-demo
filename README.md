@@ -18,4 +18,4 @@
 
 * The pre-downloaded splunk-otel-java.jar binary version is  v1.5
 * The application has Dsplunk.profiler.enabled turned ON
-
+* v1.5 has some issue with Spring boot v2.5.6. Use Spring boot v2.3.4.RELEASE for the gradle build.
